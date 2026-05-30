@@ -1,4 +1,4 @@
-# NLP Projects — AIUB Group 7
+# NLP Projects 
 
 Two NLP projects built for the Natural Language Processing course at American International University-Bangladesh (AIUB), Fall 2025-2026.
 
