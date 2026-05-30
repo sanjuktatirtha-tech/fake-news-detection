@@ -22,25 +22,8 @@ Detects fake vs real news articles using classical NLP techniques and Naive Baye
 
 ---
 
-## Project 2: AI-Generated Content Detection (Final)
 
-Detects whether text was written by a human or AI by fine-tuning BERT and RoBERTa on 5,000 essays.
-
-**Dataset:** [AI vs Human Text — Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text/data)
-
-**Tech:** Python, PyTorch, HuggingFace Transformers, scikit-learn
-
-**Results:**
-| Model | Accuracy | Precision | Recall | F1 | ROC AUC |
-|-------|----------|-----------|--------|----|---------|
-| BERT | 0.9773 | 0.9717 | 0.9683 | 0.9700 | 0.997 |
-| RoBERTa | 0.9680 | 0.9248 | 0.9965 | 0.9593 | 0.9996 |
-
-**Key finding:** BERT wins on accuracy and precision. RoBERTa wins on recall — better at catching all AI-generated text.
-
----
 
 ## Files
 - `fake_news_detection.py` — Mid-term project
-- `ai_text_detection_bert.py` — Final project (BERT)
-- `ai_text_detection_roberta.py` — Final project (RoBERTa)
+
